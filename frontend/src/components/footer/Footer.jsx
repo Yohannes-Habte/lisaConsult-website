@@ -9,14 +9,25 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-sections-container">
-        <section className="footer-company">
-          <h2> Company </h2>
+        <section className="footer-sitemap">
+          <h2> Sitemap </h2>
           <ul>
             <li> <NavLink to="/"> About </NavLink> </li>
             <li> <NavLink to="/courses"> Service </NavLink> </li>
             <li> <NavLink to="/research"> Research </NavLink> </li>
             <li> <NavLink to="/courseRegistration"> Registration </NavLink> </li>
             <li> <NavLink to="/career"> Careers </NavLink> </li>
+          </ul>
+        </section>
+
+        <section className="footer-company">
+          <h2> Sitemap </h2>
+          <ul>
+            <li> <NavLink to="/story"> Our Story </NavLink> </li>
+            <li> <NavLink to="/team"> Our Team </NavLink> </li>
+            <li> <NavLink to="/projects"> Projects </NavLink> </li>
+            <li> <NavLink to="/awards"> Award </NavLink> </li>
+            <li> <NavLink to="/clients"> Clients </NavLink> </li>
           </ul>
         </section>
 
@@ -37,7 +48,7 @@ const Footer = () => {
             <li> <a href="mailto:uelandrae@gmail.com"> <MdOutlineMail className="footer-icon"/> Email </a> </li>
             <li> <a href="tel:+4917681005650"> <MdPhoneInTalk className="footer-icon"/> Call</a> </li>
             <li> <a href="tel:+4917681005650"> <MdLocationOn className="footer-icon"/> Location</a> </li>
-            <li> <NavLink to="/contact"> <MdOutlineMessage className="footer-icon" /> Send Message</NavLink> </li>
+            <li> <NavLink to="/contact"> <MdOutlineMessage className="footer-icon" /> Comments</NavLink> </li>
           </ul>
         </section>
       </div>
