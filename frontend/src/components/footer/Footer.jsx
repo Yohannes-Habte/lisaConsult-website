@@ -21,7 +21,7 @@ const Footer = () => {
         </section>
 
         <section className="footer-company">
-          <h2> Sitemap </h2>
+          <h2> Company </h2>
           <ul>
             <li> <NavLink to="/story"> Our Story </NavLink> </li>
             <li> <NavLink to="/team"> Our Team </NavLink> </li>
